@@ -15,4 +15,4 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./postgres-data:/var/liv/postgresql/data
+      - ./postgres-data:/var/lib/postgresql/data
